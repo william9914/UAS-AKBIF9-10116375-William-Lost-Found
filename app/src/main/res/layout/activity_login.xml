@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_lf"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Halaman Login" />
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email " />
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/emailET"
+        android:layout_below="@+id/emailET"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btn_masuk"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordET"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Masuk" />
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:layout_below="@+id/btn_masuk"
+        />
+</RelativeLayout>

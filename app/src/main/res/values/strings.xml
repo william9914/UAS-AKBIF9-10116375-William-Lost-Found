@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lost&amp;Found</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">Lost&amp;Found</string>
+    <string name="slide_1_desc">Lost&amp;Found adalah tempat yang memberitahukan tentang barang hilang dan barang yang di temukan</string>
+
+    <string name="slide_2_title">Lost&amp;Found</string>
+    <string name="slide_2_desc">Membuat post tentang barang yang hilang</string>
+
+    <string name="slide_3_title">Lost&amp;Found</string>
+    <string name="slide_3_desc">Mencari Barang yang hilang di Aplikasi Lost&amp;Found</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="brng_hilang">Barang Hilang</string>
+    <string name="brng_nemu">Barang Ditemukan</string>
+    <string name="post">Buat Postingan</string>
+    <string name="about">Tentang</string>
+</resources>

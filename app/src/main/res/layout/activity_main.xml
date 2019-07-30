@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorGray"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/splash_lf"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="3"
+                android:layout_marginTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:id="@+id/hilang"
+                    android:background="@color/colorGrass"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@color/colorGrass"
+                        android:padding="8dp"
+                        android:text="Barang Hilang"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/temukan"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorGrass"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@color/colorGrass"
+                        android:padding="8dp"
+                        android:text="Barang ditemukan"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/about"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorGrass"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@color/colorGrass"
+                        android:padding="8dp"
+                        android:text="About"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
